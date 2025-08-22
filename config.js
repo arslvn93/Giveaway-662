@@ -147,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755896329352_0",
+      "id": "q_auto_1755896388819_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896329352_1",
+      "id": "q_auto_1755896388819_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896329352_2",
+      "id": "q_auto_1755896388819_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -241,8 +241,8 @@ const config = {
     "secondaryLogoUrl": "file:///Users/mateojackson/Downloads/RealBrokerLogo.webp",
     "secondaryLogoAlt": "",
     "organizerName": "Daniel Losier",
-    "brokerageName": "",
-    "address": "",
+    "brokerageName": "Real Broker",
+    "address": "130 King St W UNIT 1800B, Toronto, ON M5X 1E3, Canada",
     "email": "Daniel@ErbaAndco.com",
     "phone": "416-418-6470",
     "copyrightOwner": "Daniel Losier"
