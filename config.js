@@ -2,7 +2,7 @@ const config = {
   "meta": {
     "pageTitle": "Win a $1,000 Private Chef Night for 4 people - Toronto Home Dining!",
     "navBrandLogoText": "Daniel Losier",
-    "privacyPolicyLink": ""
+    "privacyPolicyLink": "https://erbaandco.com/privacy-policy/"
   },
   "giveaway": {
     "heroHeadline": "Win a <span class='highlight'>$1,000 Private Chef</span> Experience for 4 people - Toronto Home Dining!",
@@ -147,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755896388819_0",
+      "id": "q_auto_1755896563624_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896388819_1",
+      "id": "q_auto_1755896563624_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896388819_2",
+      "id": "q_auto_1755896563624_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
