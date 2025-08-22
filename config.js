@@ -6,11 +6,11 @@ const config = {
   },
   "giveaway": {
     "heroHeadline": "Win a <span class='highlight'>$1,000 Private Chef</span> Experience for 4 \t6 At Home in Toronto!",
-    "heroSubheadline": "Enjoy an amazing meal with family or friends, prepared by a private chef in your own home. Few can win \t6 enter by September 7th!",
+    "heroSubheadline": "Enjoy a gourmet meal for 4, prepared by a private chef in your own home. Only a few will win — enter by September 7th!",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3qxgwdqxjhrm80crraq8dbvdrg.jpg",
-    "promotionDates": "Giveaway runs Aug 22\t6Sept 7, 2025. Winner drawn Sept 8!",
+    "promotionDates": "Giveaway runs Aug 22 to Sept 7, 2025. Winner drawn on Sept 8!",
     "endDate": "2025-09-08T03:59:00.000Z",
-    "heroCtaText": "Enter to Win Now!",
+    "heroCtaText": "Claim Your Spot Now!",
     "entryFormCtaText": "Enter Me to Win!",
     "name": "Toronto Private Chef At-Home Giveaway",
     "successModalHeaderText": "You\u001fre In the Draw!",
@@ -143,7 +143,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755894281253_0",
+      "id": "q_auto_1755894489263_0",
       "questionText": "How long have you lived in your current home?",
       "options": [
         {
@@ -165,7 +165,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894281253_1",
+      "id": "q_auto_1755894489263_1",
       "questionText": "Are you planning to buy or sell property in the next 12 months?",
       "options": [
         {
@@ -187,7 +187,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894281253_2",
+      "id": "q_auto_1755894489263_2",
       "questionText": "What do you value most in your home dining experiences?",
       "options": [
         {
@@ -209,7 +209,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894281253_3",
+      "id": "q_auto_1755894489263_3",
       "questionText": "Would you like tips on how to host great dinners or info about Toronto real estate trends?",
       "options": [
         {
