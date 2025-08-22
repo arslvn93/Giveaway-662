@@ -147,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755895436190_0",
+      "id": "q_auto_1755895616162_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755895436190_1",
+      "id": "q_auto_1755895616162_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755895436190_2",
+      "id": "q_auto_1755895616162_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -239,7 +239,7 @@ const config = {
     "footerDisclaimer": "This giveaway is organized by Daniel Losier and is not sponsored by any chef service. Winner chosen at random from eligible entries received by Sept 7, 2025. Must be 18+ and live in Toronto area.",
     "organizerLogoUrl": "",
     "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Brokerage Logo",
+    "secondaryLogoAlt": "",
     "organizerName": "Daniel Losier",
     "brokerageName": "",
     "address": "",
