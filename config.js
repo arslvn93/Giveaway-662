@@ -132,8 +132,8 @@ const config = {
       "text": ""
     },
     "importantNotice": {
-      "title": "",
-      "text": ""
+      "title": "Don’t Miss Your Chance!  ",
+      "text": "We will contact the winner by email right after the draw. Entry closes September 7, so act fast!"
     }
   },
   "entryForm": {
@@ -147,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755896857764_0",
+      "id": "q_auto_1755897024088_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896857764_1",
+      "id": "q_auto_1755897024088_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755896857764_2",
+      "id": "q_auto_1755897024088_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
