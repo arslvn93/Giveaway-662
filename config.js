@@ -10,7 +10,7 @@ const config = {
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3qxgwdqxjhrm80crraq8dbvdrg.jpg",
     "promotionDates": "Giveaway runs Aug 22 to Sept 7, 2025. Winner drawn on Sept 8!",
     "endDate": "2025-09-08T03:59:00.000Z",
-    "heroCtaText": "Claim Your Spot Now!",
+    "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter Me to Win!",
     "name": "Toronto Private Chef At-Home Giveaway",
     "successModalHeaderText": "You\u001fre In the Draw!",
@@ -143,7 +143,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755894568480_0",
+      "id": "q_auto_1755894615833_0",
       "questionText": "How long have you lived in your current home?",
       "options": [
         {
@@ -165,7 +165,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894568480_1",
+      "id": "q_auto_1755894615833_1",
       "questionText": "Are you planning to buy or sell property in the next 12 months?",
       "options": [
         {
@@ -187,7 +187,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894568480_2",
+      "id": "q_auto_1755894615833_2",
       "questionText": "What do you value most in your home dining experiences?",
       "options": [
         {
@@ -209,7 +209,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894568480_3",
+      "id": "q_auto_1755894615833_3",
       "questionText": "Would you like tips on how to host great dinners or info about Toronto real estate trends?",
       "options": [
         {
