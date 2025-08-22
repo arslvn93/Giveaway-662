@@ -1,21 +1,21 @@
 const config = {
   "meta": {
-    "pageTitle": "Win a $1,000 Private Chef Night for 4 	6 Toronto Home Dining!",
+    "pageTitle": "Win a $1,000 Private Chef Night for 4 - Toronto Home Dining!",
     "navBrandLogoText": "Daniel Losier",
     "privacyPolicyLink": ""
   },
   "giveaway": {
-    "heroHeadline": "Win a <span class='highlight'>$1,000 Private Chef</span> Experience for 4 	6 At Home in Toronto!",
-    "heroSubheadline": "Enjoy an amazing meal with family or friends, prepared by a private chef in your own home. Few can win 	6 enter by September 7th!",
+    "heroHeadline": "Win a <span class='highlight'>$1,000 Private Chef</span> Experience for 4 \t6 At Home in Toronto!",
+    "heroSubheadline": "Enjoy an amazing meal with family or friends, prepared by a private chef in your own home. Few can win \t6 enter by September 7th!",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3qxgwdqxjhrm80crraq8dbvdrg.jpg",
-    "promotionDates": "Giveaway runs Aug 22	6Sept 7, 2025. Winner drawn Sept 8!",
+    "promotionDates": "Giveaway runs Aug 22\t6Sept 7, 2025. Winner drawn Sept 8!",
     "endDate": "2025-09-08T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter Me to Win!",
     "name": "Toronto Private Chef At-Home Giveaway",
-    "successModalHeaderText": "Youre In the Draw!",
+    "successModalHeaderText": "You\u001fre In the Draw!",
     "successModalMainMessage": "Your entry for the <strong>Private Chef At-Home Dining Experience</strong> is in! Winner will be announced Sept 8 and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar	6you could enjoy a special night in!"
+    "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar\t6you could enjoy a special night in!"
   },
   "settings": {
     "confettiColors": [
@@ -27,16 +27,10 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": " ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Private Chef At-Home Dining Experience</strong> is almost locked in! Follow Daniel Losier on social media to officially lock in your entry and stay connected.",
-    "socialPromptText": "FOLLOW DANIEL TO WIN! Complete Your Entry Now"
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -68,11 +62,11 @@ const config = {
       },
       {
         "icon": "fas fa-star",
-        "text": "Full gourmet meal 	6 just relax"
+        "text": "Full gourmet meal \t6 just relax"
       },
       {
         "icon": "fas fa-heart",
-        "text": "No stress, no driving 	6 perfect for busy families"
+        "text": "No stress, no driving \t6 perfect for busy families"
       },
       {
         "icon": "fas fa-users",
@@ -81,8 +75,8 @@ const config = {
     ],
     "name": "Luxury At-Home Private Chef Dining Experience",
     "value": "$1,000 Value",
-    "description": "Picture this: you and up to three guests relaxing at home as your own private chef prepares a delicious meal for you. No babysitter needed, no rushing out the door. Just an evening of great food, laughter, and fun 	6 all in comfort. This exclusive prize is perfect for busy parents or anyone who loves special dining but finds it tough to get out. Make it your date night or invite your closest friends 	6 its your choice!",
-    "limitedTimeOfferText": "Only one winner 	6 entry closes soon!",
+    "description": "Picture this: you and up to three guests relaxing at home as your own private chef prepares a delicious meal for you. No babysitter needed, no rushing out the door. Just an evening of great food, laughter, and fun \t6 all in comfort. This exclusive prize is perfect for busy parents or anyone who loves special dining but finds it tough to get out. Make it your date night or invite your closest friends \t6 it\u001fs your choice!",
+    "limitedTimeOfferText": "Only one winner \t6 entry closes soon!",
     "ctaButtonText": "I Want This Chef Night!"
   },
   "howToEnter": {
@@ -124,42 +118,19 @@ const config = {
         "icon": "fas fa-map-marker-alt",
         "text": "Must live in Toronto area"
       }
-    ],
+    ]
+  },
+  "rules": {
+    "faq": [],
+    "tips": [],
     "fairSelectionInfo": {
-      "title": "Fair, Random Winner Drawing",
-      "text": "We choose the winner by a random draw so everyone has an equal chance. No tricks or hidden rules."
+      "title": "",
+      "text": ""
     },
     "importantNotice": {
-      "title": "Dont Miss Your Chance!",
-      "text": "We will contact the winner by email right after the draw. Entry closes September 7, so act fast!"
-    },
-    "faq": [
-      {
-        "q": "Who can win this chef night?",
-        "a": "Anyone 18+ who lives in Toronto or nearby can enter. It's designed for busy professionals and families."
-      },
-      {
-        "q": "Can I bring friends?",
-        "a": "Yes, you can enjoy the meal with up to 3 friends or family, or keep it as a special date night."
-      },
-      {
-        "q": "When will I know if I win?",
-        "a": "Well draw and email the winner on September 8, 2025. Watch your inbox!"
-      },
-      {
-        "q": "Is this really free?",
-        "a": "Yes! The full chef meal experience is covered. No hidden fees."
-      },
-      {
-        "q": "Do I have to list my home for sale to enter?",
-        "a": "No! This giveaway is open to everyone. If you do have questions about real estate, Daniel Losier is happy to help."
-      }
-    ],
-    "tips": [
-      "Double-check your email so we can reach you if you win",
-      "Follow Daniel on Instagram and Facebook for winner news",
-      "Tell a friend whod love a chef meal at home"
-    ]
+      "title": "",
+      "text": ""
+    }
   },
   "entryForm": {
     "sharePlatforms": {
@@ -167,50 +138,103 @@ const config = {
       "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2FGiveaway-662.netlify.app%2Fadmin&text=Win%20a%20$1,000%20Private%20Chef%20Experience%20for%204%20%E2%80%93%20At%20Home%20in%20Toronto!"
     },
     "subtitle": "Enter below for your chance to win a $1,000 private chef experience at home!",
-    "entryCountText": "Many busy Toronto families have already entered 	6 dont wait!",
-    "socialSharePrompt": "Share this exclusive chef night with friends and family:",
-    "entryFormCtaText": "Enter Me to Win!"
+    "entryCountText": "Many busy Toronto families have already entered \t6 don\u001ft wait!",
+    "socialSharePrompt": "Share this exclusive chef night with friends and family:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1040796413_0",
+      "id": "q_auto_1755894281253_0",
       "questionText": "How long have you lived in your current home?",
       "options": [
-        { "value": "Less than 1 year", "text": "Less than 1 year" },
-        { "value": "1-3 years", "text": "1-3 years" },
-        { "value": "More than 3 years", "text": "More than 3 years" },
-        { "value": "Im not sure", "text": "Im not sure" }
+        {
+          "value": "Less than 1 year",
+          "text": "Less than 1 year"
+        },
+        {
+          "value": "1-3 years",
+          "text": "1-3 years"
+        },
+        {
+          "value": "More than 3 years",
+          "text": "More than 3 years"
+        },
+        {
+          "value": "I\u001fm not sure",
+          "text": "I\u001fm not sure"
+        }
       ]
     },
     {
-      "id": "q_auto_1040796413_1",
+      "id": "q_auto_1755894281253_1",
       "questionText": "Are you planning to buy or sell property in the next 12 months?",
       "options": [
-        { "value": "Yes", "text": "Yes" },
-        { "value": "No", "text": "No" },
-        { "value": "Maybe", "text": "Maybe" },
-        { "value": "Not sure", "text": "Not sure" }
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        },
+        {
+          "value": "Maybe",
+          "text": "Maybe"
+        },
+        {
+          "value": "Not sure",
+          "text": "Not sure"
+        }
       ]
     },
     {
-      "id": "q_auto_1040796413_2",
+      "id": "q_auto_1755894281253_2",
       "questionText": "What do you value most in your home dining experiences?",
       "options": [
-        { "value": "Relaxing with family", "text": "Relaxing with family" },
-        { "value": "Entertaining friends", "text": "Entertaining friends" },
-        { "value": "Cozy nights", "text": "Cozy nights" },
-        { "value": "Trying new foods", "text": "Trying new foods" }
+        {
+          "value": "Relaxing with family",
+          "text": "Relaxing with family"
+        },
+        {
+          "value": "Entertaining friends",
+          "text": "Entertaining friends"
+        },
+        {
+          "value": "Cozy nights",
+          "text": "Cozy nights"
+        },
+        {
+          "value": "Trying new foods",
+          "text": "Trying new foods"
+        }
       ]
     },
     {
-      "id": "q_auto_1040796413_3",
+      "id": "q_auto_1755894281253_3",
       "questionText": "Would you like tips on how to host great dinners or info about Toronto real estate trends?",
       "options": [
-        { "value": "Yes, please", "text": "Yes, please" },
-        { "value": "No, thanks", "text": "No, thanks" }
+        {
+          "value": "Yes, please",
+          "text": "Yes, please"
+        },
+        {
+          "value": "No, thanks",
+          "text": "No, thanks"
+        }
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "\u001f\u001f ONE MORE STEP",
+    "mainMessage": "Your spot for the <strong>Private Chef At-Home Dining Experience</strong> is almost locked in! Follow Daniel Losier on social media to officially lock in your entry and stay connected.",
+    "socialPromptText": "FOLLOW DANIEL TO WIN! Complete Your Entry Now"
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/erbaandco/",
