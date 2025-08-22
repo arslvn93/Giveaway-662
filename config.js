@@ -36,7 +36,7 @@ const config = {
     "images": [
       {
         "src": "",
-        "alt": "Private chef cooking in a Toronto home"
+        "alt": "Private chef cooking at a Toronto home"
       },
       {
         "src": "",
@@ -62,22 +62,22 @@ const config = {
       },
       {
         "icon": "fas fa-star",
-        "text": "Full gourmet meal \t6 just relax"
+        "text": "Full gourmet meal - just relax"
       },
       {
         "icon": "fas fa-heart",
-        "text": "No stress, no driving \t6 perfect for busy families"
+        "text": "No stress, no driving - perfect for busy families"
       },
       {
         "icon": "fas fa-users",
         "text": "Choose date night or include friends"
       }
     ],
-    "name": "Luxury At-Home Private Chef Dining Experience",
+    "name": "Luxury At Home. Private Chef Dining Experience",
     "value": "$1,000 Value",
-    "description": "Picture this: you and up to three guests relaxing at home as your own private chef prepares a delicious meal for you. No babysitter needed, no rushing out the door. Just an evening of great food, laughter, and fun \t6 all in comfort. This exclusive prize is perfect for busy parents or anyone who loves special dining but finds it tough to get out. Make it your date night or invite your closest friends \t6 it\u001fs your choice!",
-    "limitedTimeOfferText": "Only one winner \t6 entry closes soon!",
-    "ctaButtonText": "I Want This Chef Night!"
+    "description": "Picture this: you and up to three guests relaxing at home while your own private chef prepares a gourmet meal for you. No babysitter needed, no rushing out the door. Just an evening of amazing food, laughter, and comfort. This exclusive prize is perfect for busy parents or anyone who loves special dining but finds it tough to get out. Make it a date night or invite your closest friends — it’s your choice!",
+    "limitedTimeOfferText": "Only one winner - entry closes soon!",
+    "ctaButtonText": "I Want The Private Chef Night!"
   },
   "howToEnter": {
     "steps": [
@@ -143,7 +143,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755894666168_0",
+      "id": "q_auto_1755894859085_0",
       "questionText": "How long have you lived in your current home?",
       "options": [
         {
@@ -165,7 +165,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894666168_1",
+      "id": "q_auto_1755894859085_1",
       "questionText": "Are you planning to buy or sell property in the next 12 months?",
       "options": [
         {
@@ -187,7 +187,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894666168_2",
+      "id": "q_auto_1755894859085_2",
       "questionText": "What do you value most in your home dining experiences?",
       "options": [
         {
@@ -209,7 +209,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755894666168_3",
+      "id": "q_auto_1755894859085_3",
       "questionText": "Would you like tips on how to host great dinners or info about Toronto real estate trends?",
       "options": [
         {
