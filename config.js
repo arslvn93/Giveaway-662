@@ -15,7 +15,7 @@ const config = {
     "name": "Toronto Private Chef At-Home Giveaway",
     "successModalHeaderText": "You\u001fre In the Draw!",
     "successModalMainMessage": "Your entry for the <strong>Private Chef At-Home Dining Experience</strong> is in! Winner will be announced Sept 8 and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar\t6you could enjoy a special night in!"
+    "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar - you could enjoy a special night in!"
   },
   "settings": {
     "confettiColors": [
@@ -138,87 +138,73 @@ const config = {
       "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2FGiveaway-662.netlify.app%2Fadmin&text=Win%20a%20$1,000%20Private%20Chef%20Experience%20for%204%20%E2%80%93%20At%20Home%20in%20Toronto!"
     },
     "subtitle": "Enter below for your chance to win a $1,000 private chef experience at home!",
-    "entryCountText": "Many busy Toronto families have already entered \t6 don\u001ft wait!",
+    "entryCountText": "Many busy Toronto families have already entered - do not wait!",
     "socialSharePrompt": "Share this exclusive chef night with friends and family:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755894861387_0",
-      "questionText": "How long have you lived in your current home?",
+      "id": "q_auto_1755895226542_0",
+      "questionText": "What do you like the most about your current home?",
       "options": [
         {
-          "value": "Less than 1 year",
-          "text": "Less than 1 year"
+          "value": "The location",
+          "text": "The location"
         },
         {
-          "value": "1-3 years",
-          "text": "1-3 years"
+          "value": "The layout",
+          "text": "The layout"
         },
         {
-          "value": "More than 3 years",
-          "text": "More than 3 years"
+          "value": "The finishes (paint, lighting, etc.",
+          "text": "The finishes (paint, lighting, etc."
         },
         {
-          "value": "I\u001fm not sure",
-          "text": "I\u001fm not sure"
+          "value": "The outdoor space",
+          "text": "The outdoor space"
         }
       ]
     },
     {
-      "id": "q_auto_1755894861387_1",
-      "questionText": "Are you planning to buy or sell property in the next 12 months?",
+      "id": "q_auto_1755895226542_1",
+      "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
-          "value": "Yes",
-          "text": "Yes"
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
         },
         {
-          "value": "No",
-          "text": "No"
+          "value": "Yes, in the next 1–2 years",
+          "text": "Yes, in the next 1–2 years"
         },
         {
-          "value": "Maybe",
-          "text": "Maybe"
+          "value": "Not at the moment",
+          "text": "Not at the moment"
         },
         {
-          "value": "Not sure",
-          "text": "Not sure"
+          "value": "I’m not sure yet",
+          "text": "I’m not sure yet"
         }
       ]
     },
     {
-      "id": "q_auto_1755894861387_2",
-      "questionText": "What do you value most in your home dining experiences?",
+      "id": "q_auto_1755895226542_2",
+      "questionText": "What’s your current housing situation?",
       "options": [
         {
-          "value": "Relaxing with family",
-          "text": "Relaxing with family"
+          "value": "I rent and am interested in buying",
+          "text": "I rent and am interested in buying"
         },
         {
-          "value": "Entertaining friends",
-          "text": "Entertaining friends"
+          "value": "I own and might sell within 2 years",
+          "text": "I own and might sell within 2 years"
         },
         {
-          "value": "Cozy nights",
-          "text": "Cozy nights"
+          "value": "I own and am happy where I am",
+          "text": "I own and am happy where I am"
         },
         {
-          "value": "Trying new foods",
-          "text": "Trying new foods"
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1755894861387_3",
-      "questionText": "Would you like tips on how to host great dinners or info about Toronto real estate trends?",
-      "options": [
-        {
-          "value": "Yes, please",
-          "text": "Yes, please"
-        },
-        {
-          "value": "No, thanks",
-          "text": "No, thanks"
+          "value": "I’m actively looking to buy or sell now",
+          "text": "I’m actively looking to buy or sell now"
         }
       ]
     }
