@@ -39,7 +39,7 @@ const config = {
         "alt": "Private chef cooking at a Toronto home"
       },
       {
-        "src": "",
+        "src": "https://i.postimg.cc/j2TXcYTC/replicate-prediction-8s6m4wvb35rme0crtf08h200cc.webp",
         "alt": "Friends enjoying a gourmet dinner at home"
       },
       {
@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755899167129_0",
+      "id": "q_auto_1755899318453_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755899167129_1",
+      "id": "q_auto_1755899318453_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755899167129_2",
+      "id": "q_auto_1755899318453_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
