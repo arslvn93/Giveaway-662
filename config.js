@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755898630183_0",
+      "id": "q_auto_1755898697746_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755898630183_1",
+      "id": "q_auto_1755898697747_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755898630183_2",
+      "id": "q_auto_1755898697747_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -258,7 +258,7 @@ const config = {
       "email": "Daniel@ErbaAndco.com"
     },
     "footerDisclaimer": "This giveaway is organized by Daniel Losier and is not sponsored by any chef service. Winner chosen at random from eligible entries received by Sept 7, 2025. Must be 18+ and live in Toronto area.",
-    "organizerLogoUrl": "https://erbaandco.com/wp-content/uploads/2023/03/LOSIER_PrimaryLogo_Pistachio.svg",
+    "organizerLogoUrl": "https://i.postimg.cc/nr9dRGjw/LOSIER-Primary-Logo-Pistachio-1-1.webp",
     "secondaryLogoUrl": "https://drive.google.com/file/d/1PQBGOQfhEmIJCpyfjtKFZgDRFv2yfAqF/view",
     "secondaryLogoAlt": "",
     "organizerName": "Daniel Losier",
