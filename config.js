@@ -121,7 +121,28 @@ const config = {
     ]
   },
   "rules": {
-    "faq": [],
+    "faq": [
+      {
+        "q": "Who can win this chef night?",
+        "a": "Anyone 18+ who lives in Toronto or nearby can enter. It's designed for busy professionals and families.\n "
+      },
+      {
+        "q": "Can I bring friends?",
+        "a": "Yes, you can enjoy the meal with up to 3 friends or family, or keep it as a special date night."
+      },
+      {
+        "q": "When will I know if I win?",
+        "a": "We’ll draw and email the winner on September 8, 2025. Watch your inbox"
+      },
+      {
+        "q": "Is this really free?",
+        "a": "Yes! The full chef meal experience is covered. No hidden fees."
+      },
+      {
+        "q": "Do I have to list my home for sale to enter?",
+        "a": "No! This giveaway is open to everyone. If you do have questions about real estate, Daniel Losier is happy to help."
+      }
+    ],
     "tips": [
       "Double-check your email so we can reach you if you win ",
       "Follow Daniel on Instagram and Facebook for winner news ",
@@ -147,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755897024088_0",
+      "id": "q_auto_1755897154850_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -169,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755897024088_1",
+      "id": "q_auto_1755897154850_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -191,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755897024088_2",
+      "id": "q_auto_1755897154850_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
