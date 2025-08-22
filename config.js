@@ -122,7 +122,11 @@ const config = {
   },
   "rules": {
     "faq": [],
-    "tips": [],
+    "tips": [
+      "Double-check your email so we can reach you if you win ",
+      "Follow Daniel on Instagram and Facebook for winner news ",
+      "ell a friend who’d love a chef meal at home"
+    ],
     "fairSelectionInfo": {
       "title": "",
       "text": ""
@@ -143,7 +147,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755895284093_0",
+      "id": "q_auto_1755895436190_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -165,7 +169,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755895284093_1",
+      "id": "q_auto_1755895436190_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -187,7 +191,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755895284093_2",
+      "id": "q_auto_1755895436190_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
