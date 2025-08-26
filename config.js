@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756236650113_0",
+      "id": "q_auto_1756239817586_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756236650113_1",
+      "id": "q_auto_1756239817586_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756236650113_2",
+      "id": "q_auto_1756239817586_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -230,6 +230,32 @@ const config = {
         {
           "value": "I’m actively looking to buy or sell now",
           "text": "I’m actively looking to buy or sell now"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1756239817586_3",
+      "questionText": "Where do you currently live?",
+      "options": [
+        {
+          "value": "Downtown/Midtown Toronto",
+          "text": "Downtown/Midtown Toronto"
+        },
+        {
+          "value": "North York / Scarborough / Etobicoke",
+          "text": "North York / Scarborough / Etobicoke"
+        },
+        {
+          "value": "Vaughan / Richmond Hill / Markham",
+          "text": "Vaughan / Richmond Hill / Markham"
+        },
+        {
+          "value": "Mississauga / Brampton",
+          "text": "Mississauga / Brampton"
+        },
+        {
+          "value": "Other GTA",
+          "text": "Other GTA"
         }
       ]
     }
