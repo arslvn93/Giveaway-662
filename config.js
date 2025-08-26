@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756173911258_0",
+      "id": "q_auto_1756174144533_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756173911258_1",
+      "id": "q_auto_1756174144533_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756173911258_2",
+      "id": "q_auto_1756174144533_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -258,9 +258,9 @@ const config = {
       "email": "Daniel@ErbaAndco.com"
     },
     "footerDisclaimer": "This giveaway is organized by Daniel Losier and is not sponsored by any chef service. Winner chosen at random from eligible entries received by Sept 7, 2025. Must be 18+ and live in Toronto area.",
-    "organizerLogoUrl": "https://i.postimg.cc/nr9dRGjw/LOSIER-Primary-Logo-Pistachio-1-1.webp",
-    "secondaryLogoUrl": "https://iili.io/KdVjVEP.webp",
-    "secondaryLogoAlt": "https://iili.io/KdVjVEP.webp",
+    "organizerLogoUrl": "https://iili.io/KdVjVEP.webp",
+    "secondaryLogoUrl": "https://iili.io/KdVOP8F.webp",
+    "secondaryLogoAlt": "",
     "organizerName": "Daniel Losier",
     "brokerageName": "Real Broker",
     "address": "130 King St W UNIT 1800B, Toronto, ON M5X 1E3, Canada",
