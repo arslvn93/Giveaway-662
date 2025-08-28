@@ -43,11 +43,11 @@ const config = {
         "alt": "Friends enjoying a gourmet dinner at home"
       },
       {
-        "src": "",
+        "src": "https://i.postimg.cc/9fzNw2Xh/replicate-prediction-h37jhzedv1rm80crteyr3z2vsr.webp",
         "alt": "Plated fine dining meal served on a table"
       },
       {
-        "src": "",
+        "src": "https://i.postimg.cc/9fzNw2Xh/replicate-prediction-h37jhzedv1rm80crteyr3z2vsr.webp",
         "alt": "Busy parents relaxing while a chef prepares dinner"
       }
     ],
@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756239817586_0",
+      "id": "q_auto_1756394369379_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756239817586_1",
+      "id": "q_auto_1756394369379_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756239817586_2",
+      "id": "q_auto_1756394369379_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756239817586_3",
+      "id": "q_auto_1756394369379_3",
       "questionText": "Where do you currently live?",
       "options": [
         {
