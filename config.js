@@ -6,15 +6,15 @@ const config = {
   },
   "giveaway": {
     "heroHeadline": "Win a <span class='highlight'>$1,000 Private Chef</span> Experience for 4 people - Toronto Home Dining!",
-    "heroSubheadline": "Enjoy a gourmet meal for 4, prepared by a private chef in your own home. Enter by September 7th!",
+    "heroSubheadline": "Enjoy a gourmet meal for 4, prepared by a private chef in your own home. Enter by September 24th!",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3qxgwdqxjhrm80crraq8dbvdrg.jpg",
-    "promotionDates": "Giveaway runs Aug 22 to Sept 7, 2025. Winner drawn on Sept 8!",
-    "endDate": "2025-09-08T03:59:00.000Z",
+    "promotionDates": "Giveaway runs Sept 4 to Sept 24th, 2025. Winner drawn on Sept 26!",
+    "endDate": "2025-09-25T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter Me to Win!",
     "name": "Toronto Private Chef At-Home Giveaway",
     "successModalHeaderText": "You\u001fre In the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Private Chef At-Home Dining Experience</strong> is in! Winner will be announced Sept 8 and notified by email. Good luck!",
+    "successModalMainMessage": "Your entry for the <strong>Private Chef At-Home Dining Experience</strong> is in! Winner will be announced Sept 26 and notified by email. Good luck!",
     "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar - you could enjoy a special night in!"
   },
   "settings": {
@@ -132,7 +132,7 @@ const config = {
       },
       {
         "q": "When will I know if I win?",
-        "a": "We’ll draw and email the winner on September 8, 2025. Watch your inbox"
+        "a": "We’ll draw and email the winner on September 26, 2025. Watch your inbox"
       },
       {
         "q": "Is this really free?",
@@ -154,7 +154,7 @@ const config = {
     },
     "importantNotice": {
       "title": "Don’t Miss Your Chance!  ",
-      "text": "We will contact the winner by email right after the draw. Entry closes September 7, so act fast!"
+      "text": "We will contact the winner by email right after the draw. Entry closes September 24, so act fast!"
     }
   },
   "entryForm": {
@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756394369379_0",
+      "id": "q_auto_1756981914156_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756394369379_1",
+      "id": "q_auto_1756981914156_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756394369379_2",
+      "id": "q_auto_1756981914156_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756394369379_3",
+      "id": "q_auto_1756981914156_3",
       "questionText": "Where do you currently live?",
       "options": [
         {
@@ -283,7 +283,7 @@ const config = {
       "phone": "416-418-6470",
       "email": "Daniel@ErbaAndco.com"
     },
-    "footerDisclaimer": "This giveaway is organized by Daniel Losier and is not sponsored by any chef service. Winner chosen at random from eligible entries received by Sept 7, 2025. Must be 18+ and live in Toronto area.",
+    "footerDisclaimer": "This giveaway is organized by Daniel Losier and is not sponsored by any chef service. Winner chosen at random from eligible entries received by Sept 24, 2025. Must be 18+ and live in Toronto area.",
     "organizerLogoUrl": "https://iili.io/KdVjVEP.webp",
     "secondaryLogoUrl": "https://iili.io/KdVOP8F.webp",
     "secondaryLogoAlt": "",
