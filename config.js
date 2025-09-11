@@ -13,7 +13,7 @@ const config = {
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter Me to Win!",
     "name": "Toronto Private Chef At-Home Giveaway",
-    "successModalHeaderText": "You\u001fre In the Draw!",
+    "successModalHeaderText": "You're In the Draw!",
     "successModalMainMessage": "Your entry for the <strong>Private Chef At-Home Dining Experience</strong> is in! Winner will be announced Sept 26 and notified by email. Good luck!",
     "successModalEmailPrompt": "Watch your email and keep Sept 8 on your calendar - you could enjoy a special night in!"
   },
@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757595558221_0",
+      "id": "q_auto_1757595578572_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595558221_1",
+      "id": "q_auto_1757595578572_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595558221_2",
+      "id": "q_auto_1757595578572_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595558221_3",
+      "id": "q_auto_1757595578572_3",
       "questionText": "Where do you currently live?",
       "options": [
         {
