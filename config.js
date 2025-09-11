@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757595476884_0",
+      "id": "q_auto_1757595558221_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595476884_1",
+      "id": "q_auto_1757595558221_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595476884_2",
+      "id": "q_auto_1757595558221_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757595476884_3",
+      "id": "q_auto_1757595558221_3",
       "questionText": "Where do you currently live?",
       "options": [
         {
@@ -254,12 +254,12 @@ const config = {
           "text": "Downtown"
         },
         {
-          "value": "Mid town",
-          "text": "Mid town"
+          "value": "Midtown",
+          "text": "Midtown"
         },
         {
-          "value": "Up town",
-          "text": "Up town"
+          "value": "Uptown",
+          "text": "Uptown"
         }
       ]
     }
