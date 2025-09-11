@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756982003106_0",
+      "id": "q_auto_1757595476884_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756982003106_1",
+      "id": "q_auto_1757595476884_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756982003106_2",
+      "id": "q_auto_1757595476884_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,28 +234,32 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756982003106_3",
+      "id": "q_auto_1757595476884_3",
       "questionText": "Where do you currently live?",
       "options": [
         {
-          "value": "Downtown/Midtown Toronto",
-          "text": "Downtown/Midtown Toronto"
+          "value": "East Toronto",
+          "text": "East Toronto"
         },
         {
-          "value": "North York / Scarborough / Etobicoke",
-          "text": "North York / Scarborough / Etobicoke"
+          "value": "West Toronto",
+          "text": "West Toronto"
         },
         {
           "value": "Vaughan / Richmond Hill / Markham",
           "text": "Vaughan / Richmond Hill / Markham"
         },
         {
-          "value": "Mississauga / Brampton",
-          "text": "Mississauga / Brampton"
+          "value": "Downtown",
+          "text": "Downtown"
         },
         {
-          "value": "Other GTA",
-          "text": "Other GTA"
+          "value": "Mid town",
+          "text": "Mid town"
+        },
+        {
+          "value": "Up town",
+          "text": "Up town"
         }
       ]
     }
