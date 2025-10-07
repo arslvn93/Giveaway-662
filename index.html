@@ -20,6 +20,34 @@
     <meta name="twitter:description" content="Enter our exciting giveaway for a chance to win! Don't miss out.">
     <meta name="twitter:image" content="https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/tmp29y4k7bt.jpg">
     <script src="config.js"></script> <!-- Load config first -->
+    <script>
+    // Sanitize config strings before any page logic uses it
+    (function(){
+        try {
+            if (typeof config === 'undefined') return;
+            const seen = new WeakSet();
+            function sanitizeString(str){
+                return String(str)
+                    .replace(/\u0019/g, "\u2019")
+                    .replace(/[\u0000-\u0018\u001A-\u001F\u007F-\u009F]/g, "");
+            }
+            function sanitizeDeep(val){
+                if (typeof val === 'string') return sanitizeString(val);
+                if (val && typeof val === 'object'){
+                    if (seen.has(val)) return val;
+                    seen.add(val);
+                    if (Array.isArray(val)){
+                        for (let i=0;i<val.length;i++) val[i] = sanitizeDeep(val[i]);
+                    } else {
+                        for (const k in val){ if (Object.prototype.hasOwnProperty.call(val, k)) val[k] = sanitizeDeep(val[k]); }
+                    }
+                }
+                return val;
+            }
+            sanitizeDeep(config);
+        } catch(e) { /* no-op */ }
+    })();
+    </script>
 <!-- Meta Pixel Code Base -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -100,6 +128,9 @@ fbq('track', 'PageView');
             --glass-border-color-theme: rgba(162, 213, 171, 0.3);
             --shadow-color-theme: rgba(0, 0, 0, 0.05);
         }
+
+        /* Highlight spans inside config-rendered HTML */
+        .highlight { color: var(--primary-color-theme); font-weight: 700; }
 
         /* --- UTILITY & BUTTONS --- */
         .container { width: 90%; max-width: 1000px; margin-left: auto; margin-right: auto; }
@@ -1166,7 +1197,7 @@ body.theme-pastel #rules::before {
             <div class="container">
                 <div class="content-card" style="margin-bottom: 1.5rem;"> <!-- Added wrapper card for title/subtitle -->
                     <h2 class="section-title">Rules & Eligibility</h2>
-                    <p class="section-subtitle" style="margin-bottom: 0;">Please read the fine print before entering.</p>
+                    <p class="section-subtitle" style="margin-bottom: 0;" id="rulesFinePrintText">Please read the fine print before entering.</p>
                 </div>
                 <div class="content-card">
                     <div class="rules-text-block" id="rulesFairSelection"></div>
@@ -1174,7 +1205,7 @@ body.theme-pastel #rules::before {
                     <ul class="faq-list" id="rulesFaqList"></ul>
                     <a href="#" target="_blank" class="button-primary download-rules-link" id="rulesPdfLink" style="display:none;">Download Full Rules <i class="fas fa-file-pdf"></i></a>
                 </div>
-                <div class="content-card" style="margin-top:1rem;">
+                <div class="content-card" style="margin-top:1rem;" id="rulesTipsSection">
                     <h3 style="text-align:center; font-size: 1.25rem; color:var(--primary-color-theme); margin-bottom:1rem;">Tips for Entering:</h3>
                     <ul class="tips-list" id="rulesTipsList"></ul>
                 </div>
@@ -1330,7 +1361,26 @@ body.theme-pastel #rules::before {
                     }
                 }
             }
+
+            function applyColorOverrides() {
+                const customPrimaryColor = config?.settings?.primaryColorOverride;
+                const customSecondaryColor = config?.settings?.secondaryColorOverride;
+
+                if (customPrimaryColor && customPrimaryColor.trim() !== '' && /^#([0-9A-Fa-f]{3}){1,2}$/.test(customPrimaryColor.trim())) {
+                    pageBody.style.setProperty('--primary-color-theme', customPrimaryColor.trim());
+                } else {
+                    pageBody.style.removeProperty('--primary-color-theme');
+                }
+
+                if (customSecondaryColor && customSecondaryColor.trim() !== '' && /^#([0-9A-Fa-f]{3}){1,2}$/.test(customSecondaryColor.trim())) {
+                    pageBody.style.setProperty('--secondary-color-theme', customSecondaryColor.trim());
+                } else {
+                    pageBody.style.removeProperty('--secondary-color-theme');
+                }
+            }
+
             applyTheme(config.settings?.theme || 'dark');
+            applyColorOverrides();
 // Set parallax background images from config
             if (config.prize?.images?.length > 0) {
                 const howToEnterImageUrl = config.prize.images[3]?.src;
@@ -1644,32 +1694,30 @@ function populateNewFooterData() {
                 }
 
                 // console.log("Final combined data to be sent:", JSON.stringify(finalPayload, null, 2));
-                const webhookUrl = "https://n8n.salesgenius.co/webhook/giveaway";
+                
+                // Use Netlify Function as secure proxy (keeps auth credentials server-side)
+                const functionUrl = "/.netlify/functions/submit-entry";
 
-                if (webhookUrl && webhookUrl.startsWith("http")) { // Check if it's a valid-looking URL
-                    try {
-                        const response = await fetch(webhookUrl, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify(finalPayload),
-                            mode: 'cors'
-                        });
+                try {
+                    const response = await fetch(functionUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(finalPayload)
+                    });
 
-                        if (!response.ok) {
-                            const responseText = await response.text();
-                            console.error("Final webhook submission failed:", response.status, responseText);
-                            alert('There was an issue submitting your entry. Please try again.');
-                        } else {
-                            // console.log("Final webhook submission successful. Redirecting to thank you page.");
-                            window.location.href = 'thankyou.html';
-                        }
-                    } catch (error) {
-                        console.error("Final webhook submission error:", error);
-                        alert('An error occurred while submitting your entry. Please check your connection and try again.');
+                    if (!response.ok) {
+                        const responseData = await response.json().catch(() => ({ error: 'Unknown error' }));
+                        console.error("Submission failed:", response.status, responseData);
+                        alert('There was an issue submitting your entry. Please try again.');
+                    } else {
+                        // console.log("Submission successful. Redirecting to thank you page.");
+                        window.location.href = 'thankyou.html';
                     }
-                } else {
-                    // console.log("Demo submit (webhook URL not configured or is placeholder). Redirecting to thank you page.");
-                    window.location.href = 'thankyou.html';
+                } catch (error) {
+                    console.error("Submission error:", error);
+                    alert('An error occurred while submitting your entry. Please check your connection and try again.');
                 }
             }
 
@@ -1811,7 +1859,7 @@ function populateNewFooterData() {
 
         setText('prizeName', config.prize.name);
         setText('prizeValue', config.prize.value);
-        setText('prizeDescription', config.prize.description);
+        setHTML('prizeDescription', config.prize.description);
 
         const incList = document.querySelector('#prizeIncludedList ul');
         if (incList && config.prize.includedItems) {
@@ -1887,6 +1935,12 @@ try {
 
 try {
     if (config.rules) {
+        // Populate fine print text
+        const finePrintEl = document.getElementById('rulesFinePrintText');
+        if (finePrintEl && config.rules.finePrintText) {
+            setText('rulesFinePrintText', config.rules.finePrintText);
+        }
+
         const fairEl = document.getElementById('rulesFairSelection');
         if (fairEl && config.rules.fairSelectionInfo) {
             setHTML('rulesFairSelection', `<h3>${config.rules.fairSelectionInfo.title || ''}</h3><p>${config.rules.fairSelectionInfo.text || ''}</p>`);
@@ -1919,6 +1973,16 @@ try {
                 pdfL.style.display = 'block';
             } else {
                 pdfL.style.display = 'none';
+            }
+        }
+
+        // Control Tips section visibility
+        const tipsSection = document.getElementById('rulesTipsSection');
+        if (tipsSection) {
+            if (config.rules.showTipsSection === false) {
+                tipsSection.style.display = 'none';
+            } else {
+                tipsSection.style.display = 'block';
             }
         }
 
@@ -2095,7 +2159,8 @@ try {
             document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && successModal?.classList.contains('visible')) successModal.classList.remove('visible'); });
 
             // --- Initial Population & Start Hero Animation ---
-            populateSimpleData(); 
+            populateSimpleData();
+            applyColorOverrides();
 
             if (heroSection) {
                 setTimeout(() => {
